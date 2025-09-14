@@ -1,9 +1,8 @@
+Console.WriteLine("Hello, System!");
+GreetUser("User", "System");
 
-Console.WriteLine("Hello, World!");
-GreetUser("User", 25);
-
-static void GreetUser(string name, int32 age)
+static void GreetUser(string name, string anotherName)
 {
-    Console.WriteLine($"Hello, {name} with age {age}!");
+    Console.WriteLine($"Hello, {name} and {anotherName}!");
 }
 
